@@ -1,14 +1,14 @@
 provider "null" {}
 
 module "apache" {
-  source = "./Modules/apache"
+  source = "./modules/apache"
 }
 
 module "jenkins" {
-  source = "./Modules/jenkins"
+  source = "./modules/jenkins"
 }
 
 module "sonarqube" {
-  source = "./Modules/sonarqube"
+  source = "./modules/sonarqube"
 }
 
